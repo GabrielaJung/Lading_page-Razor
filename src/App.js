@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Cabecalho from './components/cabecalho/cabecalho';
+import Destaque from './components/Destaque/destaque.js';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <header className="App-header">
         
         <Cabecalho />
+        <Destaque />
 
       </header>
     </div>

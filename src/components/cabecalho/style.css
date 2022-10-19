@@ -1,3 +1,62 @@
+h1{
+    float: center;
+    margin: 8px;
+    padding: 0 12px; 
+    display: inline-grid;
+    font-size: 1.4em;
+    font-weight: 500;
+  }
+
 nav {
-    background-color: blueviolet;
+    background-color: #FFFFFF;
+    box-shadow: 1px 0px 5px #DDDDDD;
+}
+
+.navbar-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.logo-cabecalho {
+    width: 10em;
+    margin: 8px
+}
+
+.help {
+    position: relative;
+    color: black;  
+    text-decoration: none;
+    transition:color 0.5s
+}
+
+.help:before {
+    content: "";
+    display: inline;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background-color: #cc0344;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.help:hover:before {
+    visibility: visible;
+
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.help:hover{
+    color: #cc0344;
+    text-decoration-color: #cc0344 ;
 }
