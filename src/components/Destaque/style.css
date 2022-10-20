@@ -1,3 +1,10 @@
-.gif-destaque {
-    width: 20%;
+
+
+.destaque {
+    width: 100%;
+
+}
+
+.div-imagem-destaque {
+    overflow-y: hidden;
 }

@@ -3,7 +3,7 @@ h1{
     margin: 8px;
     padding: 0 12px; 
     display: inline-grid;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 500;
   }
 
@@ -21,9 +21,14 @@ nav {
     flex-direction: row;
 }
 
+
+
+
+
 .logo-cabecalho {
-    width: 10em;
-    margin: 8px
+    width: 8em;
+    margin: 8px;
+     
 }
 
 .help {
