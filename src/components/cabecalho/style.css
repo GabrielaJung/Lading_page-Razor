@@ -10,6 +10,7 @@ h1{
 nav {
     background-color: #FFFFFF;
     box-shadow: 1px 0px 5px #DDDDDD;
+    z-index: +1;
 }
 
 .navbar-header {

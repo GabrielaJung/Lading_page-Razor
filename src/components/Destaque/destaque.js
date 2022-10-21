@@ -6,13 +6,19 @@ const Destaque = props => {
 
     return(
         <section className='section banner banner-default'>
-            <div className='div-imagem-destaque container-xp justify-content-right'>
+            <div 
+            className='div-imagem-destaque position-relative display-inline-block'>
                 
                 
                 <img 
                 src={ImgDestaque} 
-                className='destaque media img-fluid float-right' 
+                className='destaque media img-fluid max-width' 
                 alt='Razor'/>   
+
+                    <label className='container'>Workstations de 
+                    <br></br>Alta Performance</label>
+
+
                 
                         
             </div>            

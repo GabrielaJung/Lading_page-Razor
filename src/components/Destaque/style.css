@@ -2,9 +2,27 @@
 
 .destaque {
     width: 100%;
-
+    z-index: -1;
+    box-shadow: 1px 0px 5px #DDDDDD;
 }
+
 
 .div-imagem-destaque {
     overflow-y: hidden;
+    display: inline-block;
+    position: relative;
+}
+
+label{
+    padding: 5%;
+    margin: 4%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 120%;
+    text-shadow: 1px 0px 5px #dddddd;
 }
