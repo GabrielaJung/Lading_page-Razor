@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Cabecalho from './components/cabecalho/cabecalho';
 import Destaque from './components/Destaque/destaque.js';
+import Maquinas from './components/maquinas/maquinas.js';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
         
         <Cabecalho />
         <Destaque />
-
+        <Maquinas />
+        
       </header>
     </div>
   );

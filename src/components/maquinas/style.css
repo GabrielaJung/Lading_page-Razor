@@ -1,0 +1,79 @@
+
+.mt-auto{
+    margin: 2em;
+    padding: 2em;
+}
+.virtuos-descricao {
+    text-align: center;
+    margin-top: 1.5em;
+
+}
+
+.virtuos {
+    text-align: center;
+}
+
+.virtuos-comprar {
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.desempenho {
+    margin: 1.2em;
+    vertical-align: center;
+    font-size: 1.2em;
+}
+
+.orcar {
+
+    background: purple;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #fff;
+    transition: 500ms all;
+}
+
+.orcar:hover {
+    transform: scale(1.1);
+    background: darkblue;
+    border: none;
+}
+
+.orcar:active {
+    background-color: magenta;
+    transition: 02ms all;
+    border: none;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.2em;
+    line-height: 2;
+}
+
+.montar {
+    margin: 0 0 1em 0 ;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.4em;
+    line-height: 1.4;
+    
+}
+
+.d-flex{
+    align-items: center;
+}
+
+.check {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 1em;
+    
+}
+
+.maquinas-2{
+    background-color: #DDD;
+}

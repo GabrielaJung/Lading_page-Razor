@@ -11,6 +11,7 @@
     overflow-y: hidden;
     display: inline-block;
     position: relative;
+    box-shadow: 1px 0px 5px #DDDDDD;
 }
 
 label{
@@ -26,3 +27,5 @@ label{
     line-height: 120%;
     text-shadow: 1px 0px 5px #dddddd;
 }
+
+
