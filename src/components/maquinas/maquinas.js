@@ -67,7 +67,7 @@ const Maquinas = () => {
                 <div className='maquinas container row flex-row'>
 
                     <div className='p-5 div-maq container col-lg-6 col-md-12 col-sm-12'>
-                        <ProdigyLogo className='logos mt-5 mb-3 container'/>
+                        <ProdigyLogo className='logos mt-3 mb-3 container'/>
                         <img src={Prodigy} 
                         alt='Prodigy' 
                         className='maquina p-2 container  rounded media img-fluid max-width' />
@@ -101,29 +101,29 @@ const Maquinas = () => {
                         
                     </div>
 
-                    <div className='p-2 div-maq col-lg-6 col-md-12 col-sm-12'>
+                    <div className='p-5 div-maq col-lg-6 col-md-12 col-sm-12'>
 
-                        <VirtuosLogo className='logos mt-5 mb-3 container'/>
+                        <VirtuosLogo className='logos mt-3 mb-3 container'/>
                         <img src={Virtuos} 
                         alt='Virtuos' 
                         className='maquina p-2 container  rounded media img-fluid max-width' />
                     
                         <p className='preco d-flex justify-content-center'>
-                            A PARTIR DE R$10.841,16
+                            A PARTIR DE R$39.848,94
                         </p>                    
                         <ul className='container descricao'>
 
                             <li className='container d-flex justify-content-start'>
                                 <img src={Check} alt='checked' className='check'/>
-                                Até 5.1GHz
+                                Até 4.8GHz
                             </li>
                             <li className='container d-flex justify-content-start'>
                                 <img src={Check} alt='checked' className='check'/>
-                                Até 2 placas de vídeo
+                                Até 3 placas de vídeo
                             </li>
                             <li className='container d-flex justify-content-start'>
                                 <img src={Check} alt='checked' className='check'/>
-                                Até 128GB de RAM
+                                Até 256GB de RAM
                             </li>
                             <li>
                                 <a href='https://api.whatsapp.com/send?phone=555430466350&text=Ol%C3%A1.%20Estou%20no%20site%20da%20Razor%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.'>

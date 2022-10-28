@@ -71,11 +71,10 @@ li {
     width: 1.2em;
     height: 1.2em;
     margin-right: 1em;
-    
 }
 
 .maquinas-2 {
-    background-image: linear-gradient(to right, #f2f2f2, #fff, #f2f2f2, #fff, #f2f2f2);
+    background-image: linear-gradient(to right, #f1f1f1, #fefefe, #f1f1f1, #fefefe, #f1f1f1);
 }
 
 .maquinas {
