@@ -7,6 +7,7 @@ import Processador from './components/processador/processador.js';
 import Grafico from './components/grafico/grafico.js';
 import Formulario from './components/formulario/formulario.js';
 import Time from './components/time/time.js'
+import Rodape from './components/rodape/rodape.js';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Grafico />
         <Formulario />
         <Time />
+        <Rodape />
         
       </header>
     </div>

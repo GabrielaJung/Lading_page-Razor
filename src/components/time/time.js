@@ -8,8 +8,8 @@ import Rui from './img/rui.jpg'
 const Time = () => {
     return (
         <div>
-            <div className='col-12'>
-                <div className='row'>
+            <div className='col-12 d-flex justify-content-center'>
+                <div className='row card-decks container d-flex justify-content-center'>
                     <div className='col-lg-12 col-md-12 col-sm-12 container'>
                         <h2 className='d-flex justify-content-center m-4 p-2'>Conheça a nossa equipe NerdScript</h2>     
                     </div>
