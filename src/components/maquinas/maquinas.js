@@ -16,7 +16,7 @@ const Maquinas = () => {
     <div>
         <div className='mt-auto'>
             <div className='col-12 container display-flex justify-content-center'>
-                <TalentLogo className='logos mt-3 mb-3 container'/>
+                <TalentLogo id='talent' className='logos mt-3 mb-3 container'/>
             </div>
             <div className='col-12 container justify-content-space-between'>
                 <div className='row display-flex d-flex flex-row'>

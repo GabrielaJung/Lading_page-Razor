@@ -1,0 +1,20 @@
+.card {
+    width: 18rem;
+    box-shadow: 2px 2px 5px  #DDDDDD;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 2;
+    font-style: italic;
+    font-weight: 500;
+    color: purple;
+    transition: all 500ms;
+}
+
+.links:hover {
+    text-decoration: underline;
+    color: darkblue;
+    transform: scale(1.05);
+}
