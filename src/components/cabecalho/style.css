@@ -50,7 +50,7 @@ nav {
     left: 10%;
     width: 80%;
     height: 2px;
-    background-color: #cc0344;
+    background-color: rgb(182, 0, 182);
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -66,6 +66,6 @@ nav {
 }
 
 .help:hover{
-    color: #cc0344;
-    text-decoration-color: #cc0344 ;
+    color: rgb(182, 0, 182);
+    text-decoration-color: rgb(182, 0, 182) ;
 }
